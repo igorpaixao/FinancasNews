@@ -1,0 +1,110 @@
+@media (max-width: 991.98px) {
+    /*Navegacao e Banner*/
+
+    header {
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    div#container {
+        height: auto;
+    }
+
+    div#container section#navegacao {
+        height: auto;
+    }
+
+    div#container section#navegacao nav {
+        height: auto;
+    }
+
+    div#container section#navegacao nav h1 a {
+        background-size: 80px;
+        width: 80px;
+        height: 80px;
+    }
+
+    div#container section#navegacao div.geral {
+        display: none;
+    }
+
+    div#container section#navegacao div#mobile {
+        display: none;
+        text-align: center;
+    }
+    
+    div#container section#navegacao i#menumobileopen {
+        display: block;
+    }
+
+    div#container section#navegacao i#menumobileopen:hover {
+        cursor: pointer;
+    }
+
+    div#container section#navegacao i#menumobileclose {
+        display: none;
+    }
+
+    div#container section#navegacao i#menumobileclose:hover {
+        cursor: pointer;
+    }
+
+    div#container section#chamada {
+        display: block;
+        height: auto;
+    }
+
+    div#container section#chamada div.chamadaimagem {
+        width: auto;
+    }
+    div#container section#chamada div.chamadaimagem img {
+        display: none;
+    }
+
+    div#container section#chamada div.chamadabotoes {
+        padding: 10px;
+        width: auto;
+        text-align: center;
+    }
+
+    div#container section#chamada div.chamadabotoes p {
+        padding: 10px;
+    }
+
+    div#container section#chamada div.chamadabotoes a {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 10px 10px;
+    }
+
+    section.conteudos {
+        display: block;
+    }
+
+    section.conteudos div.conteudosdiv {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    section.conteudos div.conteudosdiv h3 {
+        font-weight: bold;
+        margin-top: 0;
+    }
+
+    section.conteudos div.conteudosdiv p {
+        font-weight: lighter;
+        color: black;
+    }
+
+    .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+    }
+}

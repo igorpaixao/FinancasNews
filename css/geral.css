@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+/*Navegacao e Banner*/
+
+header {
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+div#container {
+    height: 100%;
+}
+
+div#container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+div#container div#mobile, div#container i#menumobileopen, div#container i#menumobileclose {
+    display: none;
+}
+
+div#container section#navegacao {
+    height: 100%;
+}
+
+div#container section#navegacao nav {
+    height: 15%;
+    padding: 0px 5%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div#container section#navegacao ul li a {
+    color: rgb(199, 130, 1);
+    border-bottom: 1px solid #fff;
+    transition: border-bottom 0.5s;
+}
+
+div#container section#navegacao ul li a:hover{
+    border-bottom: 1px solid;
+    border-bottom-style: dashed;
+    transition: all 0.5s;
+}
+
+body.home div#container section#navegacao ul li a.marcacao {
+    border-bottom: 1px solid;
+    border-bottom-style: dashed;
+}
+
+div#container section#navegacao nav h1 a {
+    display: block;
+    background-image: url('../img/Logo.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+    text-indent: -10000px;
+}
+
+div#container section#navegacao div.geral ul {
+    display: flex;
+}
+
+div#container section#navegacao a {
+    display: inline-block;
+    margin: 5px 10px;
+    text-decoration: none;
+}
+
+div#container section#chamada {
+    display: flex;
+    justify-content: space-between;
+    height: 85%;
+}
+
+div#container section#chamada div.chamadaimagem {
+    text-align: center;
+    width: 50%;
+}
+
+div#container section#chamada div.chamadaimagem img {
+    height: 100%;
+}
+
+div#container section#chamada div.chamadabotoes {
+    padding: 15px;
+    width: 50%;
+    text-align: center;
+}
+
+div#container section#chamada div.chamadabotoes h1 {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+div#container section#chamada div.chamadabotoes p {
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div#container section#chamada div.chamadabotoes img {
+    text-align: center;
+    height: 50%;
+    width: 50%;
+}
+
+div#container section#chamada div.chamadabotoes a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 10px;
+}
+
+div#container section#chamada div.chamadabotoes a.botaoassine {
+    background-color: #f7ca58;
+    border-radius: 5px;
+    color: #260D0D;
+    box-shadow: none;
+    transition: box-shadow 1s;
+}
+
+div#container section#chamada div.chamadabotoes a.botaoassine:hover {
+    box-shadow: 1px 1px 5px 1px gray;
+    transition: all 0.3s;
+}
+
+div#container section#chamada div.chamadabotoes a.botaoyoutube {
+    background-color: rgb(255, 98, 98);
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: none;
+    transition: box-shadow 1s;
+}
+
+div#container section#chamada div.chamadabotoes a.botaoyoutube:hover {
+    box-shadow: 1px 1px 5px 1px gray;
+    transition: all 0.3s;
+}
+
+/*Conteudos oferecidos*/
+
+section.conteudos {
+    display: flex;
+    justify-content: space-around;
+}
+
+section.conteudos div.conteudosdiv {
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0.5px gray;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+section.conteudos div.conteudosdiv h3 {
+    color: rgb(199, 130, 1);
+    font-weight: lighter;
+}
+
+section.conteudos div.conteudosdiv p {
+    color: rgb(199, 130, 1);
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+section.conteudos div.conteudosdiv img {
+    width: 80%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+/*Footer*/
+footer {
+    width: 80%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+footer p {
+    padding-bottom: 10px;
+}

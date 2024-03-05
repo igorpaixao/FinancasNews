@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="js/script.js"></script>
+    <title>Finanças News - Blog</title>
+</head>
+<body>
+    <header> <!--Navegacao e Banner-->
+        <div id="container">
+            <section id="navegacao">
+                <nav>
+                    <h1><a href="index.html">Finanças News</a></h1>
+                    <div class="geral">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="">Newsletter</a></li>
+                            <li><a href="#">Notícias</a></li>
+                            <li><a href="">Contato</a></li>
+                        </ul>
+                    </div>
+                    <i onclick="abrirMenu()" id="menumobileopen" class="material-symbols-outlined">Menu</i> <!--Menu mobile open-->
+                    <i onclick="fecharMenu()" id="menumobileclose" class="material-symbols-outlined">Close</i> <!--Menu mobile close-->
+                </nav>
+                <div id="mobile">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="">Newsletter</a></li>
+                        <li><a href="#">Notícias</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </div>
+            </section> 
+        </div>
+    </header> <!--Navegacao e Banner-->
+    <section class="containerblog"> <!--Artigos e navegacao lateral-->
+        <div class="conteudos"> <!--Conteudos-->
+            <div class="artigos"> <!--Artigos-->
+                <div class="artigo"> <!--Início do Post-->
+                    <div class="imagempost">
+                        <img src="blog/artigo1.jpg" alt="#">
+                    </div>
+                    <div class="infopost">
+                        <h2>Como criar um orçamento eficiente e alcançar suas metas financeiras.</h2>
+                        <p>Este artigo oferece orientações práticas sobre como estabelecer um orçamento sólido, destacando a importância do controle financeiro para atingir objetivos específicos.</p>
+                        <a href="#">Leia mais...</a>
+                    </div>
+                </div> <!--Final do Post-->
+                <div class="artigo"> <!--Início do Post-->
+                    <div class="imagempost">
+                        <img src="blog/artigo2.jpg" alt="#">
+                    </div>
+                    <div class="infopost">
+                        <h2>Investindo com sabedoria: estratégias para iniciantes no mercado financeiro.</h2>
+                        <p>Explora estratégias de investimento para iniciantes, abordando conceitos fundamentais e fornecendo dicas para tomar decisões informadas no mercado financeiro.</p>
+                        <a href="#">Leia mais...</a>
+                    </div>
+                </div> <!--Final do Post-->
+                <div class="artigo"> <!--Início do Post-->
+                    <div class="imagempost">
+                        <img src="blog/artigo3.jpg" alt="#">
+                    </div>
+                    <div class="infopost">
+                        <h2>Os benefícios do planejamento tributário para otimizar suas finanças pessoais</h2>
+                        <p>Analisa como o planejamento tributário pode ser uma ferramenta eficaz para maximizar a eficiência financeira, destacando estratégias legais para reduzir a carga tributária pessoal.</p>
+                        <a href="#">Leia mais...</a>
+                    </div>
+                </div> <!--Final do Post-->
+                <div class="artigo"> <!--Início do Post-->
+                    <div class="imagempost">
+                        <img src="blog/artigo4.jpg" alt="#">
+                    </div>
+                    <div class="infopost">
+                        <h2>Entendendo os riscos e recompensas dos investimentos em criptomoedas.</h2>
+                        <p>Aborda as nuances dos investimentos em criptomoedas, explicando os potenciais ganhos e os riscos envolvidos, oferecendo insights para investidores interessados nesse mercado.</p>
+                        <a href="#">Leia mais...</a>
+                    </div>
+                </div> <!--Final do Post-->
+                <div class="artigo"> <!--Início do Post-->
+                    <div class="imagempost">
+                        <img src="blog/artigo5.jpg" alt="#">
+                    </div>
+                    <div class="infopost">
+                        <h2>Estratégias para quitar dívidas e recuperar sua saúde financeira</h2>
+                        <p>Oferece orientações práticas sobre como elaborar um plano para liquidar dívidas, focando na recuperação da saúde financeira e na construção de um futuro financeiro mais estável.</p>
+                        <a href="#">Leia mais...</a>
+                    </div>
+                </div> <!--Final do Post-->
+                <div class="artigo"> <!--Início do Post-->
+                    <div class="imagempost">
+                        <img src="blog/artigo6.jpg" alt="#">
+                    </div>
+                    <div class="infopost">
+                        <h2>O papel do seguro na proteção do seu patrimônio: guia prático</h2>
+                        <p> Explora a importância do seguro na gestão de riscos financeiros, fornecendo informações sobre os diferentes tipos de seguros disponíveis e como escolher a cobertura adequada.</p>
+                        <a href="#">Leia mais...</a>
+                    </div>
+                </div> <!--Final do Post-->
+            </div> <!--Artigos-->
+        </div> <!--Conteudos-->
+
+        <aside class="navegacaolateral"> <!--Navegacao Lateral-->
+            <div class="container_navbar">
+                <form> <!--Pesquisa no blog-->
+                    <label for="pesquisa">
+                        <h2>Buscando por...</h2>
+                    </label>
+                    <input type="text" name="pesquisa" id="pesquisa">
+                    <input type="submit" value="Pesquisar">
+                </form>
+            </div>
+            <div class="container_navbar">
+                <h2>Categorias</h2>
+                <a href="#">Controle Orçamentário</a>
+                <a href="#">Financeiro Iniciante</a>
+                <a href="#">Livros de Finanças</a>
+                <a href="#">Mercado Financeiro</a>
+                <a href="#">Cambios e Inflação</a>
+            </div>
+        </aside> <!--Navegacao Lateral-->
+    </section> <!--Artigos e navegacao lateral-->
+    <footer> <!--Footer-->
+        <p>©2024 Finanças News. Todos os direitos reservados.</p>
+    </footer> <!--Footer-->
+</body>
+</html>

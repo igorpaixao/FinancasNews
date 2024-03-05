@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+}
+
+body, html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: auto;
+    margin: 0;
+}
+
+/*Navegacao e Banner*/
+
+header {
+    height: auto;
+    margin-bottom: 0px;
+}
+
+div#container {
+    height: auto;
+}
+
+div#container section#navegacao h1 a {
+    margin: 0;
+}
+
+div#container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+div#container section#navegacao ul li a {
+    color: rgb(199, 130, 1);
+    border-bottom: 1px solid #fff;
+    transition: border-bottom 0.5s;
+}
+
+div#container section#navegacao ul li a:hover{
+    border-bottom: 1px solid;
+    border-bottom-style: dashed;
+    transition: all 0.5s;
+}
+
+div#container div#mobile, div#container i#menumobileopen, div#container i#menumobileclose {
+    display: none;
+}
+
+div#container section#navegacao {
+    height: auto;
+}
+
+div#container section#navegacao nav {
+    height: auto;
+    padding: 0px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div#container section#navegacao nav h1 a {
+    display: block;
+    background-image: url('../img/Logo.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+    text-indent: -10000px;
+}
+
+/*Artigos e Navegacao Lateral*/
+
+section.containerblog {
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.containerblog aside.navegacaolateral {
+    width: 30%;
+    box-shadow: 0px 0px 2px 0px gray/*rgb(255, 209, 122)*/;
+}
+
+/*Artigos e navegacao lateral*/
+
+div.artigo, aside.navegacaolateral {
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.artigo {
+    margin: 20px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    box-shadow: 0px 0px 2px 0px gray/*rgb(255, 209, 122)*/;
+    border-radius: 5px;
+}
+
+div.artigo div.imagempost img {
+    height: 180px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+div.artigo div.infopost h2 {
+    margin-bottom: 10px;
+    color: rgb(163, 106, 0);
+    text-align: left;
+}
+
+div.artigo div.infopost p {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+div.artigo div.infopost a {
+    color: rgb(163, 106, 0);
+    font-weight: 400;
+}
+
+aside.navegacaolateral {
+    margin: 20px;
+    border-radius: 5px;
+}
+
+aside.navegacaolateral div.container_navbar {
+    margin-bottom: 30px;
+}
+
+aside.navegacaolateral h2 {
+    color: rgb(199, 130, 1);
+    margin-bottom: 10px;
+}
+
+aside.navegacaolateral label {
+    display: inline-block;
+}
+
+aside.navegacaolateral input[type="text"] {
+    border: 1px solid gray;
+    height: 2em;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+aside.navegacaolateral input[type="text"]:focus {
+    border: 1px solid gray;
+    height: 2em;
+    width: 100%;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+aside.navegacaolateral input[type="submit"] {
+    background: none;
+    border: none;
+    padding: 5px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: gray /*rgb(199, 130, 1)*/;
+    box-shadow: 0px 0px 3px 0px gray/*rgb(199, 130, 1)*/;
+    border-radius: 5px;
+}
+
+aside.navegacaolateral input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+aside.navegacaolateral input[type="submit"]:active {
+    background-color: rgb(212, 138, 0);
+    color: white;
+}
+
+aside.navegacaolateral div.container_navbar a {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+aside.navegacaolateral div.container_navbar a:hover {
+    text-decoration: underline;
+}
+
+/*Artigos e navegacao lateral*/
