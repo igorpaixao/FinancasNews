@@ -60,9 +60,9 @@ div#container section#navegacao nav h1 a {
     display: block;
     background-image: url('../img/Logo.png');
     background-repeat: no-repeat;
-    background-size: 100px;
-    width: 100px;
-    height: 100px;
+    background-size: 90px;
+    width: 90px;
+    height: 90px;
     text-indent: -10000px;
 }
 
@@ -141,6 +141,7 @@ aside.navegacaolateral input[type="text"] {
     height: 2em;
     width: 100%;
     margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 aside.navegacaolateral input[type="text"]:focus {
